@@ -1,0 +1,165 @@
+.login {
+    margin: 0;
+    padding: 0;
+}
+
+.login:before {
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./images/login-background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.avatar-img {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    top: calc(-80px/2);
+    left: calc(50% - 40px);
+    max-width: 80px;
+    height: auto;
+    margin: 10px 0 0 0;
+}
+
+.blur {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    min-width: 350px;
+    min-height: 400px;
+    padding: 60px 40px;
+    box-sizing: border-box;
+    background: rgb(255 255 255 / 11%);
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+
+.blur h2 {
+    margin: 10px 0;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Muli Bold";
+}
+
+.blur label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+.blur input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.blur input[type="text"], .blur input[type="password"], .blur input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.blur input[type="submit"] {
+    color: #000;
+    font-size: 16px;
+    background: #e8e8e8;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #000;
+    outline: none;
+    padding: 10px 10px 10px 10px;
+}
+
+.blur input[type="submit"]:hover {
+    color: #fff;
+    background: #104e99;
+}
+
+.blur a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.or-option {
+    color: #fff;
+    text-align: center;
+    margin: 0 0 10px 0;
+    font-family: 'Muli Regular', sans-serif;
+}
+
+.or-option:before {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 1px;
+    background: #e8e8e8;
+    left: 0;
+    position: absolute;
+    left: 15%;
+    margin-top: 10px;
+}
+
+.or-option:after {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 1px;
+    background: #e8e8e8;
+    right: 15%;
+    position: absolute;
+    margin-top: -10px;
+}
+
+.links {
+    display: flex;
+    cursor: pointer;
+    color: white;
+    margin: 0 0 20px 0;
+}
+
+.social-network {
+    width: 80%;
+    height: 30px;
+    line-height: 45px;
+    border: 1px solid #1f89d4;
+    border-radius: 5px;
+    margin: 0 5px 0 5px;
+}
+
+.social-network img {
+    width: 100%;
+    height: 100%;
+}
+
+.signup {
+    font-size: 13px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.signup .signup-now {
+    margin: 0 0 0 15px;
+    color: #387aff;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.signup .signup-now:hover {
+    color: blue;
+    text-decoration: none;
+}
